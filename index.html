@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+
+	<title>The Double Pendulum</title>
+
+	<!-- Favicons Start -->
+	<link rel="shortcut icon" type="image/png" href="icon/favicon.png" />
+	<!-- Favicons End -->
+
+	<!-- CSS Start -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- CSS End -->
+
+</head>
+<body>
+	<div id="container">
+        <canvas id="myCanvas"></canvas>
+        <div id="overlay">
+            <div id="mySidenav" class="sidenav">
+                <h2 style="text-align: center;"> T H E <br> D O U B L E <br> P E N D U L U M  </h2>
+                <br><br><br>
+                <div class="slidecontainer">
+                    <input type="range" min="10" max="50" value="30" id="length-ratio" class="slider">
+                    <p><label for="length-ratio" style="color:#e7e7e7;font-style:italic;"> ratio of length of strings </label></p>
+                </div>
+                <br>
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="100" value="50" id="mass-ratio" class="slider">
+                    <p><label for="mass-ratio" style="color:#e7e7e7;font-style:italic;"> ratio of mass of spheres </label></p>
+                </div>
+                <br>
+                <div class="toggle">
+                    <input type="checkbox" id="show_pendulum" checked="checked" style="height:25px;width:15px">
+                    <label for="show_pendulum" style="color:#e7e7e7;font-size:15px;"> SHOW PENDULUM </label>
+                </div>
+                <br>
+                <div class="toggle">
+                    <input type="checkbox" id="gravity" checked="checked" style="height:25px;width:15px">
+                    <label for="gravity" style="color:#e7e7e7;font-size:15px;"> GRAVITY </label>
+                </div><br><br>
+                <a href="#" id="apply">APPLY</a><br><br>
+            </div>
+            <div id="main">
+                <span style="font-size:80px;cursor:pointer" onclick="Nav()">&#9900;</span>
+            </div> 
+        </div>
+    </div>
+    <script type="text/javascript" src="js/pendulum.js"></script>
+</body>
+</html>
