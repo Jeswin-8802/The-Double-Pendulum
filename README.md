@@ -17,7 +17,7 @@ The equations to find the cartesan co-ordinates of the two pendulums are as foll
 *(x<sub>1</sub>, y<sub>1</sub>)* represents the co-ordinates of pendulum 1 and <br>
 *(x<sub>2</sub>, y<sub>2</sub>)* represents the co-ordinates of pendulum 2
 
-The following two fractions represent the differential equations used to trace the movement of the pendulum by obtaining *θ<sub>1</sub>*'' and *θ<sub>2</sub>*'' which represents the angular accelerations of both the pendulums.
+*θ<sub>1</sub>*'' and *θ<sub>2</sub>*'' represents the angular accelerations of both the pendulums. The equations of motion for the angles  *θ<sub>1</sub>* and *θ<sub>2</sub>* are calculted using the equations given below by successively finding the acceleration, velocity and position. Once the angular positon is obtained, we can draw the pendulum with it's updated position.
 
 <table class="fraction">
   <tbody>
@@ -74,3 +74,14 @@ The following two fractions represent the differential equations used to trace t
     </tr>
   </tbody>
 </table>
+<br>
+<br>
+
+#
+![Screenshot 2022-04-23 231108](https://user-images.githubusercontent.com/84562594/164929720-81794d37-2162-4e37-8268-ad2abc1532ce.png)
+
+# References
+
+* https://github.com/theabbie/DoublePendulum
+* http://www.physicsandbox.com/projects/double-pendulum.html
+* https://physicspython.wordpress.com/2019/06/20/double-pendulum-part-3/
