@@ -14,10 +14,11 @@ The equations to find the cartesian co-ordinates of the two pendulums are as fol
 *x<sub>2</sub> = l<sub>1</sub> sinθ<sub>1</sub> + l<sub>2</sub> sinθ<sub>2</sub> <br>*
 *y<sub>2</sub> = - l<sub>1</sub> cosθ<sub>1</sub> - l<sub>2</sub> cosθ<sub>2</sub> <br>*
 
-*(x<sub>1</sub>, y<sub>1</sub>)* represents the co-ordinates of pendulum 1 and <br>
-*(x<sub>2</sub>, y<sub>2</sub>)* represents the co-ordinates of pendulum 2
+where, <br>
+&nbsp;&nbsp;*(x<sub>1</sub>, y<sub>1</sub>)* represents the co-ordinates of pendulum 1, <br>
+&nbsp;&nbsp;*(x<sub>2</sub>, y<sub>2</sub>)* represents the co-ordinates of pendulum 2
 
-*θ<sub>1</sub>*'' and *θ<sub>2</sub>*'' represents the angular accelerations of both the pendulums. The equations of motion for the angles  *θ<sub>1</sub>* and *θ<sub>2</sub>* are calculted using the equations given below by successively finding the acceleration, velocity and position. Once the angular positon is obtained, we can draw the pendulum with it's updated position.
+*θ<sub>1</sub>*'' and *θ<sub>2</sub>*'' represents the angular accelerations of both the pendulums. The equations of motion for the angles  *θ<sub>1</sub>* and *θ<sub>2</sub>* are calculated using the equations given below by successively finding the acceleration, velocity and position. Once the angular positon is obtained, we can draw the pendulum with it's updated position.
 
 <table class="fraction">
   <tbody>
