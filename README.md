@@ -74,8 +74,6 @@ The equations to find the cartesan co-ordinates of the two pendulums are as foll
     </tr>
   </tbody>
 </table>
-<br>
-<br>
 
 #
 ![Screenshot 2022-04-23 231108](https://user-images.githubusercontent.com/84562594/164929720-81794d37-2162-4e37-8268-ad2abc1532ce.png)
