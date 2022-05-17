@@ -5,7 +5,7 @@
  
  *Relatively simple actions invites chaos*
 
-# How It's Made
+# How It Works
 
 The equations to find the cartesian co-ordinates of the two pendulums are as follows:
  
